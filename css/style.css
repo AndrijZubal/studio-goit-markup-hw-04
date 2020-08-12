@@ -128,12 +128,15 @@ body {
   fill: var(--dark-color);
   margin-right: 10px;
 }
-.icon-contact:hover,
+
 .contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+}
+
 .icon-contact:hover,
 .icon-contact:focus {
   fill: var(--accent-color);
-  color: var(--accent-color);
 }
 
 h1 {
@@ -380,8 +383,8 @@ address {
   display: flex;
   list-style: none;
 }
-.footer-social-item {
-}
+/* .footer-social-item {
+} */
 .footer-social-item:not(:last-child) {
   margin-right: 10px;
 }
