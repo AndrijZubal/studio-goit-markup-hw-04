@@ -128,14 +128,9 @@ body {
   fill: var(--dark-color);
   margin-right: 10px;
 }
-
-.contact-item:hover,
-.contact-item:focus {
+.menu-list:hover .contact-item,
+.menu-list:hover .icon-contact {
   color: var(--accent-color);
-}
-
-.icon-contact:hover,
-.icon-contact:focus {
   fill: var(--accent-color);
 }
 
@@ -323,7 +318,7 @@ address {
 .icon-client {
   fill: var(--icon-client-color);
 }
-.client-item {
+.client-link {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -338,10 +333,8 @@ address {
   justify-content: center;
   align-items: center;
 }
-.client-item:hover,
-.client-item:focus,
-.icon-client:hover,
-.icon-client:focus {
+.client-item:hover .client-link,
+.client-item:hover .icon-client {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
