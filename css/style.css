@@ -66,6 +66,19 @@ body {
 .menu-list:not(:last-child) {
   padding-right: 50px;
 }
+li.menu-list {
+  position: relative;
+}
+.line::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 50px;
+  bottom: -32px;
+  height: 4px;
+  background-color: var(--accent-color);
+}
 
 .contact {
   margin-left: 331px;
